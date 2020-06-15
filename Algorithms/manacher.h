@@ -31,9 +31,11 @@ string manacher(string s) {
             r = i + len[i] + 1;
         }
 
+        // update right-most palindrome
         if (i + len[i] > center + len[center])
             center = i;
 
+        // update max-len palindrome
         if (len[i] > len[center_max]) 
             center_max = i;
     }
