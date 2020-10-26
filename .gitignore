@@ -32,3 +32,7 @@
 *.app
 Algorithms/.vs/
 Algorithms/Debug/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+GoogleKickStart/gks
