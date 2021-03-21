@@ -14,6 +14,7 @@ vector<int> get_next(const string& p) {
 	return next;
 }
 
+// WA: "aaa", "a"
 int kmp(const string& s, const string& p) {
 	const int M = s.length();
 	const int N = p.length();
